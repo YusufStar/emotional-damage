@@ -10,7 +10,7 @@ function App() {
     const y = Math.floor(Math.random() * 75) + "%"
     setButtonPos({ x, y })
     setCount(count + 1)
-    if(count%10 == 0 && count !== 0) alert("Lütfen beni yalnız bırakma")
+    if(count%10 == 0 && count !== 0) alert("please do not leave me")
   }
   return (
     <div className="h-screen relative w-full bg-bg overflow-hidden fle items-center">
